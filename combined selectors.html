@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors</title>
+  <style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing:border-box;
+      margin:20px;
+    }
+    .background{
+      color:white;
+    }
+    h1.background{
+      background-color:orangered;
+    }
+    h2.background{
+      background-color:violet;
+    }
+    h2.background#user{
+      background-color:rgb(150, 130, 238);
+    }
+    h3.background{
+      background-color:yellowgreen;
+    }
+    span{
+      background-color:blue;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="background">Heading one</h1>
+  <h2 class="background">Heading two</h2>
+  <h2 id="user" class="background">Heading two</h2>
+  <h3 class="background">Heading three</h3>
+  <span class="background">Nothing is impossible</span>
+</body>
+</html>
